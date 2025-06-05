@@ -135,7 +135,7 @@ Download `google-services.json` and place inside:
 
 ## 🔗 Contact
 
-- LinkedIn: [[https://www.linkedin.com/in/steven-antonios/](https://www.linkedin.com/in/steven-antonios-054b3624b/)](https://www.linkedin.com/in/steven-antonios/)
+- LinkedIn: [[https://www.linkedin.com/in/steven-antonios/](https://www.linkedin.com/in/steven-antonios-054b3624b/)]
 - Email: steven.antonios445@gmail.com
 
 ---
