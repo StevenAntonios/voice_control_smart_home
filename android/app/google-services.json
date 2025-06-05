@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "865792435843",
+    "project_id": "voice-control-smart-home",
+    "storage_bucket": "voice-control-smart-home.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865792435843:android:22f438fbc67140eb9addb6",
+        "android_client_info": {
+          "package_name": "com.example.voicecontrolsmarthome"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1x0mh01cF1PaRf-7-E0RIz8AIDb-W4eg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
