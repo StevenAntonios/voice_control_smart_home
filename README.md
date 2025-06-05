@@ -58,101 +58,85 @@ User → Mobile App → Flask Backend → Whisper AI → ESP32 → WebSocket Upd
 ---
 
 ## 📸 Demo
-UI Screenshots ✅
-![Login](assets/demo/screenshots/login.jpg)
-![Home](assets/demo/screenshots/homescreen.jpg)
-![Option](assets/demo/screenshots/option.jpg)
-![voice control](assets/demo/screenshots/voicecontrol.jpg)
-![devices](assets/demo/screenshots/devicesscreen.jpg)
-Emulator Video Demo ✅
 
-Real Device Control Demo ✅
+### UI Screenshots
 
+<img src="assets/demo/screenshots/login.jpg" alt="Login" width="600"/>
+<img src="assets/demo/screenshots/homescreen.jpg" alt="Home" width="600"/>
+<img src="assets/demo/screenshots/option.jpg" alt="Option" width="600"/>
+<img src="assets/demo/screenshots/voicecontrol.jpg" alt="Voice Control" width="600"/>
+<img src="assets/demo/screenshots/devicesscreen.jpg" alt="Devices" width="600"/>
 
-- Emulator Video Demo 🎞️
-![Emulator Video Demo](https://drive.google.com/file/d/1p09WGqWYprNvnuu02MHXdrvNlB6iOxWT/view?usp=drive_link)
-- Real Device Control  🎞️
-![Real Device Control](https://drive.google.com/file/d/1c0s_ETLgs2JWwm1Tl0_tVnAwQ5lPd7tK/view?usp=sharing)
-- UML Class Diagram 🖼️
-![Class Diagram](assets/demo/uml/uml_class_diagram.png)
+### Video Demos
+
+- [Emulator Video Demo 🎞️ (Google Drive Link)](https://drive.google.com/file/d/1p09WGqWYprNvnuu02MHXdrvNlB6iOxWT/view?usp=drive_link)
+- [Real Device Control 🎞️ (Google Drive Link)](https://drive.google.com/file/d/1c0s_ETLgs2JWwm1Tl0_tVnAwQ5lPd7tK/view?usp=sharing)
+
+### UML Class Diagram
+
+<img src="assets/demo/uml/uml_class_diagram.png" alt="Class Diagram" width="600"/>
 
 ---
 
 ## 🛠️ How to Run
 
-> This project is currently private but available upon request.
-🔧 1️⃣ Clone the repository
-bash
-Copy
-Edit
+### 1️⃣ Clone the repository
+
+```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
-🔧 2️⃣ Setup Flutter App
+```
+
+### 2️⃣ Setup Flutter App
+
 Make sure Flutter SDK is installed:
 
-bash
-Copy
-Edit
+```bash
 flutter --version
-Get dependencies:
-
-bash
-Copy
-Edit
 flutter pub get
-Run on emulator or device:
-
-bash
-Copy
-Edit
 flutter run
-🔧 3️⃣ Configure Backend Server
-Backend written in Python (Flask).
+```
+
+### 3️⃣ Configure Backend Server
 
 Install requirements:
 
-bash
-Copy
-Edit
+```bash
 cd backend/
 pip install -r requirements.txt
+```
+
 Make sure Whisper model is downloaded properly (since it's large).
 
 Start Flask server:
 
-bash
-Copy
-Edit
+```bash
 python app.py
-🔧 4️⃣ ESP32 Setup
-Flash the ESP32 firmware to handle device control.
+```
 
+### 4️⃣ ESP32 Setup
+
+Flash the ESP32 firmware to handle device control.  
 Ensure ESP32 is connected via WebSocket + HTTP to match mobile & backend.
 
-🔧 5️⃣ Firebase Setup
-Create Firebase project.
+### 5️⃣ Firebase Setup
 
-Enable Authentication → Email/Password.
+Create Firebase project.  
+Enable Authentication → Email/Password.  
+Download `google-services.json` and place inside:  
+`/android/app/google-services.json`
 
-Download google-services.json and place inside:
+### ⚠ Notes:
 
-bash
-Copy
-Edit
-/android/app/google-services.json
-⚠ Notes:
-Make sure both Mobile & Backend & ESP32 are running on the same network (for real device demo).
-
-WebSocket IP & HTTP URLs should be correctly configured in code.
-
-
+- Make sure both Mobile & Backend & ESP32 are running on the same network.
+- WebSocket IP & HTTP URLs should be correctly configured in code.
 
 ---
 
 ## 🔗 Contact
 
-- LinkedIn:[(https://www.linkedin.com/public-profile/settings)]
-- Email: [steven.antonios445@gmail.com]
+- LinkedIn: [https://www.linkedin.com/in/steven-antonios/](https://www.linkedin.com/in/steven-antonios/)
+- Email: steven.antonios445@gmail.com
 
 ---
 
