@@ -61,11 +61,11 @@ User → Mobile App → Flask Backend → Whisper AI → ESP32 → WebSocket Upd
 
 ### UI Screenshots
 
-<img src="assets/demo/screenshots/login.jpg" alt="Login" width="600"/>
-<img src="assets/demo/screenshots/homescreen.jpg" alt="Home" width="600"/>
-<img src="assets/demo/screenshots/option.jpg" alt="Option" width="600"/>
-<img src="assets/demo/screenshots/voicecontrol.jpg" alt="Voice Control" width="600"/>
-<img src="assets/demo/screenshots/devicesscreen.jpg" alt="Devices" width="600"/>
+<img src="assets/demo/screenshots/login.jpg" alt="Login" width="400"/>
+<img src="assets/demo/screenshots/homescreen.jpg" alt="Home" width="400"/>
+<img src="assets/demo/screenshots/option.jpg" alt="Option" width="400"/>
+<img src="assets/demo/screenshots/voicecontrol.jpg" alt="Voice Control" width="400"/>
+<img src="assets/demo/screenshots/devicesscreen.jpg" alt="Devices" width="400"/>
 
 ### Video Demos
 
@@ -74,7 +74,7 @@ User → Mobile App → Flask Backend → Whisper AI → ESP32 → WebSocket Upd
 
 ### UML Class Diagram
 
-<img src="assets/demo/uml/uml_class_diagram.png" alt="Class Diagram" width="600"/>
+<img src="assets/demo/uml/uml_class_diagram.png" alt="Class Diagram" width="500"/>
 
 ---
 
